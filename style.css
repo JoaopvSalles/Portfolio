@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: var(--body-bg-color);
+    color: var(--text-color);
+
+    font-family: 'Merriweather Sans', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* ---------- SECTION ALL ---------- */
+section.all {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    margin-bottom: 3rem;
+}
+
+
+/* ---------- SECTION FIRST ---------- */
+section.first {
+    margin: 0 auto;
+    width: 75%;
+}
+
+
+div {
+    background-color: var(--bg-cards);
+    margin-top: 2rem;
+    min-height: 12rem;
+    border-radius: 15px;
+    border-bottom: 3px solid rgb(34, 32, 32);
+    border-right: 3px solid rgb(34, 32, 32);
+
+    padding: 1.5rem;
+}
+
+
+/* PROFILE */
+div.profile {
+    text-align: center;
+}
+
+div.profile img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    border: solid 3px rgb(59, 226, 59);
+    margin-bottom: 1.5rem;
+}
+
+div.profile h2 {
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+}
+
+div.profile p {
+    font-size: 0.8rem;
+}
+
+/* LINKS */
+div.links {
+    font-size: 0.8rem;
+}
+
+div.links p:not(:first-child) {
+    margin-top: 1rem;
+  }
+
+div.links p a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+div.links p a img {
+    margin-right: 1rem;
+    margin-bottom: -4px;
+}
+
+/* TECHS */
+div.techs h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+div.techs span {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+
+    text-align: center;
+    border-top: 10px;
+}
+
+div.techs span p {
+    background: var(--bg-techs);
+    padding: 0.5rem;
+    border-radius: 15px;
+
+    max-width: 10rem;
+
+    color: black;
+    font-size: 0.8rem;
+}
+
+/* EXPERIENCE */
+div.experience h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+div.experience ul {
+    margin-left: 2.5rem;
+}
+
+div.experience ul li:not(:first-child) {
+    margin-top: 1rem;
+}
+
+div.experience ul li {
+    font-size: 1rem;
+}
+
+div.experience ul p {
+    font-size: 0.8rem;
+}
+
+/* EDUCATION */
+div.education h3{
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+div.education ul {
+    margin-left: 2.5rem;
+}
+div.education ul li:not(:first-child) {
+    margin-top: 1rem;
+}
+
+div.education ul li {
+    font-size: 1rem;
+}
+
+div.education ul p {
+    font-size: 0.8rem;
+}
+
+
+/* ---------- SECTION SECOND ---------- */
+section.second {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/* MORE OR LESS */
+span.moreOrLess {
+    display: grid;
+    grid-template-columns: 90% 10%;
+
+    background-color: var(--bg-cards);
+    margin-top: 2rem;
+    height: 5rem;
+    border-radius: 15px;
+    border-bottom: 3px solid rgb(34, 32, 32);
+    border-right: 3px solid rgb(34, 32, 32);
+
+    padding: 1.5rem;
+}
+
+span.moreOrLess span:nth-child(1) {
+    font-size: 1.5rem;
+    margin: auto 0;
+}
+
+span.moreOrLess span:nth-child(2) {
+    font-size: 0.8rem;
+    margin: auto;
+
+    cursor: pointer;
+}
+
+/* PROJECTS */
+nav.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    column-gap: 2rem;
+}
+
+nav.projects div a {
+    text-decoration: none;
+    color: var(--text-color);
+
+    font-size: 1rem;
+}
+
+nav.projects div a img {
+    margin-right: 1rem;
+    margin-bottom: -3px;
+}
+
+nav.projects div p {
+    margin-top: 1rem;
+
+    font-size: 0.8rem;
+}
+
+nav.projects div nav.techs {
+    margin-top: 3rem;
+}
+
+nav.projects div nav.techs span {
+    font-size: 0.8rem;
+    margin-right: 3rem;
+}
+
+nav.projects div nav.techs img {
+    margin-right: 0.5rem;
+    margin-bottom: -2px;
+}
+
+
+/* ---------- SECTION FOOTER ---------- */
+footer {
+    width: 100%;
+    text-align: center;
+    font-size: 1rem;
+
+    padding: 1rem;
+}
+
+
+
+
+/* ---------- HIDE ---------- */
+.hide {
+    display: none;
+}
+
+
+
+/* ---------- @MEDIA ---------- */
+@media (max-width: 1450px) {
+    span.moreOrLess {
+        display: grid;
+        grid-template-columns: 85% 15%;
+    }
+
+    nav.techs {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 1160px) {
+    section.all {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    nav.projects {
+        display: grid;
+        grid-template-columns: 1fr;
+    
+        column-gap: 2rem;
+    }
+
+    span.moreOrLess {
+        display: grid;
+        grid-template-columns: 75% 25%;
+    }
+}
+
+@media (max-width: 760px) {
+    section.all {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    section.first {
+        width: 75%;
+    }
+
+    section.second {
+        margin-top: 5rem;
+        width: 75%;
+    }
+}
