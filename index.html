@@ -14,35 +14,47 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <span class="menu">
+        <span class="idioma">
+        </span>
+        <span class="toggle">
+            <span onclick="toggleMode()"><img id="imgToggle" src="./assets/light.webp" alt=""></span>
+        </span>
+    </span>
+
     <section class="all">
         <section class="first">
             <div class="profile">
                 <img src="../Portfolio/assets/perfil.jpg" alt="foto">
                 <h2>João Paulo</h2>
                 <p>Desenvolvedor Full Stack</p>
-            </div>    
+            </div>
+
             <div class="links">
                 <p><a href="#"><img src="../Portfolio/assets/map-pin.png" alt="">Brasil</a></p>
                 <p><a href="https://github.com/JoaopvSalles" target="_blank"><img src="../Portfolio/assets/github.png" alt="">Github</a></p>
                 <p><a href="https://www.linkedin.com/in/joaovecchio/" target="_blank"><img src="../Portfolio/assets/linkedin.png" alt="">linkedIn</a></p>
                 <p><a href="#"><img src="../Portfolio/assets/globe.png" alt="">Portfolio</a></p>
                 <p><a href="#"><img src="../Portfolio/assets/mail.png" alt="">E-mail</a></p>
-            </div>    
+            </div>
+
             <div class="techs">
                 <h3>Tecnologias</h3>
                 <span>
                     <P>JAVASCRIPT</P>
-                    <P>PHP</P>
-                    <P>GIT</P>
                     <P>TYPESCRIPT</P>
+                    <P>PHP</P>
                     <P>REACTJS</P>
-                    <P>GITHUB</P>
                     <P>HTML</P>
                     <P>CSS</P>
+                    <P>GIT</P>
+                    <P>GITHUB</P>
                     <P>REACT NATIVE</P>
                     <P>NODEJS</P>
                 </span>
-            </div>    
+            </div>
+
             <div class="experience">
                 <h3>Experiências</h3>
                 <ul>
@@ -51,7 +63,8 @@
                     <li>Desenvolvedor autônomo</li>
                     <p>- Desenvolvendo sites e aplicativos por conta própria</p>
                 </ul>
-            </div>    
+            </div>
+
             <div class="education">
                 <h3>Educação</h3>
                 <ul>
@@ -69,26 +82,35 @@
                 <span>Meus Projetos</span>
                 <span onclick="toggleEstado()" id="verMaisVerMenos">Ver menos</span>
             </span>
+
             <nav class="projects">
                 <div id="card1">
                     <a href="#" target="_blank"><img src="./assets/folder.png" alt="">Portfólio</a>
-                    <p>Portfólio desenvolvido em HTML, CSS e JS</p>
+                    <p>Portfólio desenvolvido em HTML, CSS e JS.</p>
                     <nav class="techs">
-                        <span><img src="./assets/Ellipse1.png" alt="">HTML</span>
-                        <span><img src="./assets/Ellipse2.png" alt="">CSS</span>
-                        <span><img src="./assets/Ellipse3.png" alt="">JavaScript</span>
+                        <span><img src="./assets/HTML.png" alt="">HTML</span>
+                        <span><img src="./assets/CSS.png" alt="">CSS</span>
+                        <span><img src="./assets/JS.png" alt="">JavaScript</span>
                     </nav>
                 </div>
                 <div id="card2">
-                    <a href="#"><img src="./assets/folder.png" alt="">...</a>
-                    <p>...</p>
+                    <a href="https://github.com/JoaopvSalles/dtmoney" target="_blank"><img src="./assets/folder.png" alt="">dt money</a>
+                    <p>O cálculo automatizado mostrará se o saldo está positivo ou negativo.</p>
                     <nav class="techs">
+                        <span><img src="./assets/HTML.png" alt="">HTML</span>
+                        <span><img src="./assets/CSS.png" alt="">CSS</span>
+                        <span><img src="./assets/JS.png" alt="">JavaScript</span>
+                        <span><img src="./assets/React.png" alt="">REACT</span>
+                        <span><img src="./assets/TS.png" alt="">TypeScript</span>
                     </nav>
                 </div>
                 <div id="card3">
-                    <a href="#"><img src="./assets/folder.png" alt="">...</a>
-                    <p>...</p>
+                    <a href="https://github.com/JoaopvSalles/Project-PHP-ConversorDeMoedas" target="_blank"><img src="./assets/folder.png" alt="">Conversor de Real para Dolar</a>
+                    <p>Programa de conversão atualizada para o Dolar diretamente pela <strong>API</strong> do Banco do Brasil.</p>
                     <nav class="techs">
+                        <span><img src="./assets/HTML.png" alt="">HTML</span>
+                        <span><img src="./assets/CSS.png" alt="">CSS</span>
+                        <span><img src="./assets/PHP.png" alt="">PHP</span>
                     </nav>
                 </div>
                 <div id="card4">

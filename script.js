@@ -17,3 +17,15 @@ function toggleEstado() {
         verMaisVerMenos.textContent = 'Ver menos'
     }
 }
+
+
+function toggleMode() {
+    let mode = document.body
+    mode.classList.toggle('light-mode')
+
+    if (mode.classList == "light-mode") {
+        document.getElementById('imgToggle').src = "./assets/dark.avif"
+    } else {
+        document.getElementById('imgToggle').src = "./assets/light.webp"
+    }
+}

@@ -22,7 +22,49 @@ body {
     font-family: 'Merriweather Sans', sans-serif;
 
     -webkit-font-smoothing: antialiased;
+
+    transition: 200ms;
 }
+
+
+/* BANDEIRAS */
+span.menu {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+span.idioma {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 75%;
+
+    text-align: start;
+}
+
+span.idioma img {
+    height: 1.5rem;
+    width: 2.5rem;
+
+    border-radius: 15px;
+}
+
+/* LIGHT or DARK */
+span.toggle {
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 90%;
+
+    text-align: end;
+}
+
+span.toggle span img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
 
 
 /* ---------- SECTION ALL ---------- */
@@ -105,6 +147,7 @@ div.techs span {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
 
+    justify-items: center;
     text-align: center;
     border-top: 10px;
 }
@@ -114,7 +157,7 @@ div.techs span p {
     padding: 0.5rem;
     border-radius: 15px;
 
-    max-width: 10rem;
+    width: 9rem;
 
     color: black;
     font-size: 0.8rem;
@@ -170,6 +213,7 @@ section.second {
     width: 90%;
 }
 
+
 /* MORE OR LESS */
 span.moreOrLess {
     display: grid;
@@ -224,12 +268,16 @@ nav.projects div p {
 }
 
 nav.projects div nav.techs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    row-gap: 1rem;
+
     margin-top: 3rem;
 }
 
 nav.projects div nav.techs span {
     font-size: 0.8rem;
-    margin-right: 3rem;
 }
 
 nav.projects div nav.techs img {
@@ -256,6 +304,14 @@ footer {
 }
 
 
+/* ---------- LIGHT MODE ---------- */
+body.light-mode {
+    --body-bg-color: #ffffff;
+    --text-color: #000000;
+    --bg-cards: #a2a1a8;
+    --bg-techs: #CB92B1;
+}
+
 
 /* ---------- @MEDIA ---------- */
 @media (max-width: 1450px) {
@@ -264,13 +320,12 @@ footer {
         grid-template-columns: 85% 15%;
     }
 
-    nav.techs {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+    div.techs span p {
+        width: 7rem;
     }
 }
 
-@media (max-width: 1160px) {
+@media (max-width: 1175px) {
     section.all {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -290,6 +345,21 @@ footer {
 }
 
 @media (max-width: 760px) {
+    span.menu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    span.idioma {
+        width: 55%;
+        text-align: start;
+    }
+    
+    span.toggle {
+        width: 55%;
+        text-align: end;
+    }
+
     section.all {
         display: grid;
         grid-template-columns: 1fr;
@@ -297,6 +367,10 @@ footer {
 
     section.first {
         width: 75%;
+    }
+
+    div.techs span p {
+        width: 9rem;
     }
 
     section.second {
