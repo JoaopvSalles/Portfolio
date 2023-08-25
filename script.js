@@ -24,7 +24,7 @@ function toggleMode() {
     mode.classList.toggle('light-mode')
 
     if (mode.classList == "light-mode") {
-        document.getElementById('imgToggle').src = "./assets/dark.avif"
+        document.getElementById('imgToggle').src = "./assets/dark.png"
     } else {
         document.getElementById('imgToggle').src = "./assets/light.webp"
     }
