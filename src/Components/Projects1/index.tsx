@@ -13,7 +13,7 @@ export function Projects1() {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
     const [animationDirection, setAnimationDirection] = useState(null);
 
-    const changeImage = (direction) => {
+    const changeImage = (direction: any) => {
         setAnimationDirection(direction);
 
         setTimeout(() => {
