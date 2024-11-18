@@ -26,14 +26,13 @@ export function App() {
   }
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
       <ThemeProvider theme={theme}>
 
         <Menu toggleTheme={toggleTheme} />
 
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/Portfolio" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/1" element={<Projects1 />} />
           <Route path="/projects/2" element={<Projects2 />} />
