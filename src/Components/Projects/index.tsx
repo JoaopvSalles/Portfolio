@@ -104,6 +104,7 @@ const categories = ['Javascript', 'Typescript', 'React', 'Node', 'PHP', 'HTML', 
 const Card: React.FC<Item> = ({ name, imageUrl, tech1, tech2, tech3, tech4, tech5, tech6, tech7, tech8, description, link }) => {
     return (
         <Container>
+            <title>João - Projetos</title>
             <CardLink href={link}>
                 <CardContainer>
                     <CardSVG>
