@@ -12,7 +12,7 @@ export function Home() {
             <title>João - Home</title>
                 <CardProfile>
                     <CardPhoto>
-                        <img src="../../public/perfil2.jfif" alt="" />
+                        <img src="perfil2.jfif" alt="" />
                     </CardPhoto>
                     <CardPresentation>
                         <h2>Oi, me chamo João Paulo</h2>
