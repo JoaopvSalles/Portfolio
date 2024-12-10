@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
-import PortfolioBlack from "../../../public/PortfolioBlack.png";
-import PortfolioWhite from "../../../public/PortfolioWhite.png";
+import PortfolioBlack from "/imagens/PortfolioBlack.png";
+import PortfolioWhite from "/imagens/PortfolioWhite.png";
 
 
 export function Projects1() {

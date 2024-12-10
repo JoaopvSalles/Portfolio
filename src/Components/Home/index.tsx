@@ -1,6 +1,13 @@
 import { Container, CardProfile, CardPhoto, CardPresentation, CardSkills, CardTechs, CardImage, CardProjectsLink, CardProjects, CardProject, CardContactTitle, CardContactLink } from './style'
 import { NavLink } from 'react-router-dom'
 
+import perfil from "/src/assets/perfil2.jfif"
+import react from "/src/assets/react.svg"
+import tag from "/src/assets/tag.webp"
+import PortfolioBlack from "/src/assets/PortfolioBlack.png"
+import dtMoney from "/src/assets/dtMoney.png"
+import ConversorDeMoedas from "/src/assets/ConversorDeMoedas.png"
+
 export function Home() {
 
     const handleScrollToTop = () => {
@@ -12,7 +19,7 @@ export function Home() {
             <title>João - Home</title>
                 <CardProfile>
                     <CardPhoto>
-                        <img src="perfil2.jfif" alt="" />
+                        <img src={perfil} alt="" />
                     </CardPhoto>
                     <CardPresentation>
                         <h2>Oi, me chamo João Paulo</h2>
@@ -25,29 +32,29 @@ export function Home() {
                         <h3>Minhas principais <span className="react">habilidades</span></h3>
 
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>Javascript</span>
+                            <img src={react} alt="" /><span>Javascript</span>
                         </p>
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>Typescript</span>
+                            <img src={react} alt="" /><span>Typescript</span>
                         </p>
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>React</span>
+                            <img src={react} alt="" /><span>React</span>
                         </p>
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>Node</span>
+                            <img src={react} alt="" /><span>Node</span>
                         </p>
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>PHP</span>
+                            <img src={react} alt="" /><span>PHP</span>
                         </p>
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>HTML</span>
+                            <img src={react} alt="" /><span>HTML</span>
                         </p>
                         <p>
-                            <img src="../../public/react.svg" alt="" /><span>CSS</span>
+                            <img src={react} alt="" /><span>CSS</span>
                         </p>
                     </CardTechs>
                     <CardImage>
-                        <img src="../../public/tag.webp" alt="" />
+                        <img src={tag} alt="" />
                     </CardImage>
                 </CardSkills>
                 <CardProjectsLink>
@@ -62,7 +69,7 @@ export function Home() {
                                 <span>Portfólio</span>
                             </p>
                             <p>
-                                <img src="../../public/PortfolioBlack.png" alt="" />
+                                <img src={PortfolioBlack} alt="" />
                                 <article>
                                     <span>Javascript</span>
                                     <span>Typescript</span>
@@ -85,7 +92,7 @@ export function Home() {
                                 <span>DT Money</span>
                             </p>
                             <p>
-                                <img src="../../public/dtMoney.png" alt="" />
+                                <img src={dtMoney} alt="" />
                                 <br />
                                 <article>
                                     <span>Javascript</span>
@@ -107,7 +114,7 @@ export function Home() {
                                 <span>Conversor de Moedas</span>
                             </p>
                             <p>
-                                <img src="../../public/ConversorDeMoedas.png" alt="" />
+                                <img src={ConversorDeMoedas} alt="" />
                                 <br />
                                 <article>
                                     <span>PHP</span>
