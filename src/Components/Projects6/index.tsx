@@ -15,7 +15,7 @@ export function Projects6() {
 
             <div className="project">
                 <div className="img">
-                    <img src="../../src/assets/EmBreve.png" alt="" />
+                    <img src="../../public/EmBreve.png" alt="" />
                 </div>
                 <div className="description">
                     <h3><span className="react">Descrição</span> do projeto:</h3>
@@ -27,35 +27,35 @@ export function Projects6() {
                 <div className="functions">
                     <h3>Principais <span className="react">Funcionalidades</span>:</h3>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                 </div>
 
                 <div className="techs">
                     <h3>Principais <span className="react">Tecnologias</span>:</h3>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     
                 </div>

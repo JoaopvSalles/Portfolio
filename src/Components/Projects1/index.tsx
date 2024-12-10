@@ -2,8 +2,8 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
-import PortfolioBlack from "../../../src/assets/PortfolioBlack.png";
-import PortfolioWhite from "../../../src/assets/PortfolioWhite.png";
+import PortfolioBlack from "../../../public/PortfolioBlack.png";
+import PortfolioWhite from "../../../public/PortfolioWhite.png";
 
 
 export function Projects1() {
@@ -83,44 +83,44 @@ export function Projects1() {
                 <div className="functions">
                     <h3>Principais <span className="react">Funcionalidades</span>:</h3>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Visualizar projetos</span>
+                        <img src="../../public/react.svg" alt="" /><span>Visualizar projetos</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Alterar entre tema claro ou escuro</span>
+                        <img src="../../public/react.svg" alt="" /><span>Alterar entre tema claro ou escuro</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Filtrar projetos por tag</span>
+                        <img src="../../public/react.svg" alt="" /><span>Filtrar projetos por tag</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Enviar Email para contato</span>
+                        <img src="../../public/react.svg" alt="" /><span>Enviar Email para contato</span>
                     </p>
                 </div>
 
                 <div className="techs">
                     <h3>Principais <span className="react">Tecnologias</span>:</h3>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Javascript</span>
+                        <img src="../../public/react.svg" alt="" /><span>Javascript</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Typescript</span>
+                        <img src="../../public/react.svg" alt="" /><span>Typescript</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>React</span>
+                        <img src="../../public/react.svg" alt="" /><span>React</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>HTML</span>
+                        <img src="../../public/react.svg" alt="" /><span>HTML</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Vite</span>
+                        <img src="../../public/react.svg" alt="" /><span>Vite</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Styled-Components</span>
+                        <img src="../../public/react.svg" alt="" /><span>Styled-Components</span>
                     </p>
                     <p>
-                        <img src="../../src/assets/react.svg" alt="" /><span>Emailjs</span>
+                        <img src="../../public/react.svg" alt="" /><span>Emailjs</span>
                     </p>
                     
                 </div>

@@ -12,7 +12,7 @@ export function Home() {
             <title>João - Home</title>
                 <CardProfile>
                     <CardPhoto>
-                        <img src="../../src/assets/perfil2.jfif" alt="" />
+                        <img src="../../public/perfil2.jfif" alt="" />
                     </CardPhoto>
                     <CardPresentation>
                         <h2>Oi, me chamo João Paulo</h2>
@@ -25,29 +25,29 @@ export function Home() {
                         <h3>Minhas principais <span className="react">habilidades</span></h3>
 
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>Javascript</span>
+                            <img src="../../public/react.svg" alt="" /><span>Javascript</span>
                         </p>
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>Typescript</span>
+                            <img src="../../public/react.svg" alt="" /><span>Typescript</span>
                         </p>
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>React</span>
+                            <img src="../../public/react.svg" alt="" /><span>React</span>
                         </p>
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>Node</span>
+                            <img src="../../public/react.svg" alt="" /><span>Node</span>
                         </p>
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>PHP</span>
+                            <img src="../../public/react.svg" alt="" /><span>PHP</span>
                         </p>
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>HTML</span>
+                            <img src="../../public/react.svg" alt="" /><span>HTML</span>
                         </p>
                         <p>
-                            <img src="../../src/assets/react.svg" alt="" /><span>CSS</span>
+                            <img src="../../public/react.svg" alt="" /><span>CSS</span>
                         </p>
                     </CardTechs>
                     <CardImage>
-                        <img src="../../src/assets/tag.webp" alt="" />
+                        <img src="../../public/tag.webp" alt="" />
                     </CardImage>
                 </CardSkills>
                 <CardProjectsLink>
@@ -62,7 +62,7 @@ export function Home() {
                                 <span>Portfólio</span>
                             </p>
                             <p>
-                                <img src="../../src/assets/PortfolioBlack.png" alt="" />
+                                <img src="../../public/PortfolioBlack.png" alt="" />
                                 <article>
                                     <span>Javascript</span>
                                     <span>Typescript</span>
@@ -85,7 +85,7 @@ export function Home() {
                                 <span>DT Money</span>
                             </p>
                             <p>
-                                <img src="../../src/assets/dtMoney.png" alt="" />
+                                <img src="../../public/dtMoney.png" alt="" />
                                 <br />
                                 <article>
                                     <span>Javascript</span>
@@ -107,7 +107,7 @@ export function Home() {
                                 <span>Conversor de Moedas</span>
                             </p>
                             <p>
-                                <img src="../../src/assets/ConversorDeMoedas.png" alt="" />
+                                <img src="../../public/ConversorDeMoedas.png" alt="" />
                                 <br />
                                 <article>
                                     <span>PHP</span>
