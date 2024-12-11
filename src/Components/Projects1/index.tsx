@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
-import PortfolioBlack from "/imagens/PortfolioBlack.png";
-import PortfolioWhite from "/imagens/PortfolioWhite.png";
 
+const PortfolioBlack = "public/PortfolioBlack.png"
+const PortfolioWhite = "public/PortfolioWhite.png"
 
 export function Projects1() {
     const navigate = useNavigate()
