@@ -36,7 +36,7 @@ const items: Item[] = [
         tech7: 'Styled-Components',
         tech8: 'Emailjs',
         description: 'Esse é meu Portfólio desenvolvido usando principalmente Typescript e React',
-        link: 'projects/1' 
+        link: '/projects/1' 
     },
     { 
         id: 2, 
@@ -50,7 +50,7 @@ const items: Item[] = [
         tech5: 'CSS',
         tech6: 'Styled-Components',
         description: 'Programa para calcular suas despesas com facilidade e clareza',
-        link: 'projects/2'
+        link: '/projects/2'
     },
     { 
         id: 3, 
@@ -61,7 +61,7 @@ const items: Item[] = [
         tech2: 'HTML',
         tech3: 'CSS',
         description: 'Programa criado em HTML, CSS e PHP utilizando API do Banco do Brasil',
-        link: 'projects/3'
+        link: '/projects/3'
     },
     { 
         id: 4, 
