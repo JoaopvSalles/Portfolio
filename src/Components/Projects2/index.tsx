@@ -1,6 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
+const react = "react.svg"
+const dtMoney = "dtMoney.png"
+
 export function Projects2() {
     const navigate = useNavigate()
 
@@ -15,7 +18,7 @@ export function Projects2() {
 
             <div className="project">
                 <div className="img">
-                    <img src="../../public/dtMoney.png" alt="" />
+                    <img src={dtMoney} alt="" />
                 </div>
                 <div className="description">
                     <h3><span className="react">Descrição</span> do projeto:</h3>
@@ -47,35 +50,35 @@ export function Projects2() {
                 <div className="functions">
                     <h3>Principais <span className="react">Funcionalidades</span>:</h3>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Criar novos cards com transações</span>
+                        <img src={react} alt="" /><span>Criar novos cards com transações</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Adicionar data do dia em que a trasação é criada</span>
+                        <img src={react} alt="" /><span>Adicionar data do dia em que a trasação é criada</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Calcular saldos de Entrada, Saída e Total</span>
+                        <img src={react} alt="" /><span>Calcular saldos de Entrada, Saída e Total</span>
                     </p>
                 </div>
 
                 <div className="techs">
                     <h3>Principais <span className="react">Tecnologias</span>:</h3>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Javascript</span>
+                        <img src={react} alt="" /><span>Javascript</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Typescript</span>
+                        <img src={react} alt="" /><span>Typescript</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>React</span>
+                        <img src={react} alt="" /><span>React</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>HTML</span>
+                        <img src={react} alt="" /><span>HTML</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
+                        <img src={react} alt="" /><span>CSS</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Styled-Components</span>
+                        <img src={react} alt="" /><span>Styled-Components</span>
                     </p>
                     
                 </div>

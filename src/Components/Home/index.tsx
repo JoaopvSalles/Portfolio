@@ -1,16 +1,12 @@
 import { Container, CardProfile, CardPhoto, CardPresentation, CardSkills, CardTechs, CardImage, CardProjectsLink, CardProjects, CardProject, CardContactTitle, CardContactLink } from './style'
 import { NavLink } from 'react-router-dom'
 
-// import react from "public/react.svg"
-// import tag from "/src/assets/tag.webp"
-// import PortfolioBlack from "/src/assets/PortfolioBlack.png"
-// import dtMoney from "/src/assets/dtMoney.png"
-// import ConversorDeMoedas from "/src/assets/ConversorDeMoedas.png"
-
-const react = "/react.svg"
-const PortfolioBlack = "PortfolioBlack.png"
+const perfil = "Perfil.png"
+const react = "react.svg"
+const tag = "tag.webp"
+const portfolioBlack = "PortfolioBlack.png"
 const dtMoney = "dtMoney.png"
-const ConversorDeMoedas = "ConversorDeMoedas.png"
+const conversorDeMoedas = "ConversorDeMoedas.png"
 
 export function Home() {
 
@@ -23,7 +19,7 @@ export function Home() {
             <title>João - Home</title>
                 <CardProfile>
                     <CardPhoto>
-                        <img src="/assets/Perfil.png" alt="" />
+                        <img src={perfil} alt="" />
                     </CardPhoto>
                     <CardPresentation>
                         <h2>Oi, me chamo João Paulo</h2>
@@ -58,7 +54,7 @@ export function Home() {
                         </p>
                     </CardTechs>
                     <CardImage>
-                        <img src="/Portfolio/assets/tag.webp" alt="" />
+                        <img src={tag} alt="" />
                     </CardImage>
                 </CardSkills>
                 <CardProjectsLink>
@@ -73,7 +69,7 @@ export function Home() {
                                 <span>Portfólio</span>
                             </p>
                             <p>
-                                <img src={PortfolioBlack} alt="" />
+                                <img src={portfolioBlack} alt="" />
                                 <article>
                                     <span>Javascript</span>
                                     <span>Typescript</span>
@@ -118,7 +114,7 @@ export function Home() {
                                 <span>Conversor de Moedas</span>
                             </p>
                             <p>
-                                <img src={ConversorDeMoedas} alt="" />
+                                <img src={conversorDeMoedas} alt="" />
                                 <br />
                                 <article>
                                     <span>PHP</span>
