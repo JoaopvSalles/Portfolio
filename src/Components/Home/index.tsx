@@ -25,7 +25,7 @@ export function Home() {
             <title>João - Home</title>
                 <CardProfile>
                     <CardPhoto>
-                        <img src={perfil} alt="" />
+                        <img src="/Perfil.png" alt="" />
                     </CardPhoto>
                     <CardPresentation>
                         <h2>Oi, me chamo João Paulo</h2>
