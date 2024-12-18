@@ -7,7 +7,6 @@ import { NavLink } from 'react-router-dom'
 // import dtMoney from "/src/assets/dtMoney.png"
 // import ConversorDeMoedas from "/src/assets/ConversorDeMoedas.png"
 
-const perfil = "/Perfil.png"
 const react = "/react.svg"
 const tag = "tag.webp"
 const PortfolioBlack = "PortfolioBlack.png"
@@ -25,7 +24,7 @@ export function Home() {
             <title>João - Home</title>
                 <CardProfile>
                     <CardPhoto>
-                        <img src="/Perfil.png" alt="" />
+                        <img src="/assets/Perfil.png" alt="" />
                     </CardPhoto>
                     <CardPresentation>
                         <h2>Oi, me chamo João Paulo</h2>
