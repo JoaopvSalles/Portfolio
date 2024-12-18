@@ -8,7 +8,6 @@ import { NavLink } from 'react-router-dom'
 // import ConversorDeMoedas from "/src/assets/ConversorDeMoedas.png"
 
 const react = "/react.svg"
-const tag = "tag.webp"
 const PortfolioBlack = "PortfolioBlack.png"
 const dtMoney = "dtMoney.png"
 const ConversorDeMoedas = "ConversorDeMoedas.png"
@@ -59,7 +58,7 @@ export function Home() {
                         </p>
                     </CardTechs>
                     <CardImage>
-                        <img src={tag} alt="" />
+                        <img src="/Portfolio/assets/tag.webp" alt="" />
                     </CardImage>
                 </CardSkills>
                 <CardProjectsLink>
