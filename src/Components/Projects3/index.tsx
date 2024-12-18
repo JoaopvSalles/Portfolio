@@ -1,6 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
+const react = "/react.svg"
+const conversorDeMoedas = "/ConversorDeMoedas.png"
+
 export function Projects3() {
     const navigate = useNavigate()
 
@@ -15,7 +18,7 @@ export function Projects3() {
 
             <div className="project">
                 <div className="img">
-                    <img src="../../public/ConversorDeMoedas.png" alt="" />
+                    <img src={conversorDeMoedas} alt="" />
                 </div>
                 <div className="description">
                     <h3><span className="react">Descrição</span> do projeto:</h3>
@@ -31,23 +34,23 @@ export function Projects3() {
                 <div className="functions">
                     <h3>Principais <span className="react">Funcionalidades</span>:</h3>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Cálculo de conversão de Real para Dolar</span>
+                        <img src={react} alt="" /><span>Cálculo de conversão de Real para Dolar</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>Integração com API do Banco do Brasil</span>
+                        <img src={react} alt="" /><span>Integração com API do Banco do Brasil</span>
                     </p>
                 </div>
 
                 <div className="techs">
                     <h3>Principais <span className="react">Tecnologias</span>:</h3>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>PHP</span>
+                        <img src={react} alt="" /><span>PHP</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>HTML</span>
+                        <img src={react} alt="" /><span>HTML</span>
                     </p>
                     <p>
-                        <img src="../../public/react.svg" alt="" /><span>CSS</span>
+                        <img src={react} alt="" /><span>CSS</span>
                     </p>
                 </div>
 

@@ -2,9 +2,9 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
-const react = "react.svg"
-const PortfolioBlack = "PortfolioBlack.png"
-const PortfolioWhite = "PortfolioWhite.png"
+const react = "/react.svg"
+const PortfolioBlack = "/PortfolioBlack.png"
+const PortfolioWhite = "/PortfolioWhite.png"
 
 export function Projects1() {
     const navigate = useNavigate()
