@@ -1,12 +1,12 @@
 import { Container, CardProfile, CardPhoto, CardPresentation, CardSkills, CardTechs, CardImage, CardProjectsLink, CardProjects, CardProject, CardContactTitle, CardContactLink } from './style'
 import { NavLink } from 'react-router-dom'
 
-const perfil = "Perfil.png"
-const react = "react.svg"
-const tag = "tag.webp"
-const portfolioBlack = "PortfolioBlack.png"
-const dtMoney = "dtMoney.png"
-const conversorDeMoedas = "ConversorDeMoedas.png"
+const perfil = "/assets/Perfil.png"
+const react = "/assets/react.svg"
+const tag = "/assets/tag.webp"
+const portfolioBlack = "/assets/PortfolioBlack.png"
+const dtMoney = "/assets/dtMoney.png"
+const conversorDeMoedas = "/assets/ConversorDeMoedas.png"
 
 export function Home() {
 

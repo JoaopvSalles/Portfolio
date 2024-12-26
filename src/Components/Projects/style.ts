@@ -150,3 +150,8 @@ export const CardLink = styled.a `
     text-decoration: none;
     color: var(--black);
 `
+
+export const NavLink = styled.a `
+    text-decoration: none;
+    color: var(--black);
+`
