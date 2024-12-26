@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import { Container } from "./style";
 
-const react = "/assets/react.svg"
-const dtMoney = "/assets/dtMoney.png"
+const react = "/Portfolio/assets/react.svg"
+const dtMoney = "/Portfolio/assets/dtMoney.png"
 
 export function Projects2() {
     const navigate = useNavigate()
