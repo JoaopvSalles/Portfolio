@@ -5,6 +5,10 @@ export const Container = styled.div`
     width: 80%;
     margin-bottom: 5rem;
 
+    @media (max-width: 1080px) {
+        width: 90%;
+    }
+
     span.react {
         color: var(--react);
     }
@@ -30,8 +34,12 @@ export const Container = styled.div`
     div.project {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        
         align-items: center;
+
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr;
+            gap: 1rem;
+        }
 
         div.img {
             img {
@@ -58,7 +66,12 @@ export const Container = styled.div`
     div.details {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        margin-top: 1.5rem;
+        margin-top: 2rem;
+
+        @media (max-width: 1000px) {
+            grid-template-columns: 1fr;
+            gap: 3rem;
+        }
 
         div.functions {
 
@@ -114,15 +127,17 @@ export const Container = styled.div`
                 margin-bottom: 1.5rem;
                 font-size: 1.5rem;
             }
+
             a {
-            border: 1px groove var(--react);
-            border-radius: 10px;
-            text-decoration: none;
-            font-weight: bold;
-            color: var(--react);
-            margin-right: 1rem;
-            padding: 0.8rem;
-            transition: 500ms;
+                border: 1px groove var(--react);
+                border-radius: 10px;
+                text-decoration: none;
+                font-weight: bold;
+                color: var(--react);
+                margin-right: 1rem;
+                padding: 0.8rem;
+                transition: 500ms;
+            }
 
             &:hover {
                 color: var(--white);

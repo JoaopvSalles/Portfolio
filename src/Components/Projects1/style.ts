@@ -41,110 +41,110 @@ export const Container = styled.div`
             gap: 1rem;
         }
 
-.img-carousel {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-}
+        .img-carousel {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
 
-.img-carousel img {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.5s ease;
-}
+        .img-carousel img {
+            width: 100%;
+            height: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+        }
 
-.img-carousel img.active {
-    opacity: 1;
-    position: relative;
-}
+        .img-carousel img.active {
+            opacity: 1;
+            position: relative;
+        }
 
-/* Estilos para as setas */
-.img-carousel .prev, .img-carousel .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-    z-index: 2;
-    color: var(--black);
-    transition: background-color 0.3s ease;
-}
+        /* Estilos para as setas */
+        .img-carousel .prev, .img-carousel .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 2;
+            color: var(--black);
+            transition: background-color 0.3s ease;
+        }
 
-.img-carousel .prev:hover, .img-carousel .next:hover {
-    color: var(--react);
-}
+        .img-carousel .prev:hover, .img-carousel .next:hover {
+            color: var(--react);
+        }
 
-/* Posicionar a seta esquerda */
-.img-carousel .prev {
-    left: 10px;
-}
+        /* Posicionar a seta esquerda */
+        .img-carousel .prev {
+            left: 10px;
+        }
 
-/* Posicionar a seta direita */
-.img-carousel .next {
-    right: 10px;
-}
+        /* Posicionar a seta direita */
+        .img-carousel .next {
+            right: 10px;
+        }
 
-.img-carousel img.next-enter {
-    transform: translateX(100%);
-    animation: slideInFromRight 0.5s forwards;
-}
+        .img-carousel img.next-enter {
+            transform: translateX(100%);
+            animation: slideInFromRight 0.5s forwards;
+        }
 
-.img-carousel img.next-exit {
-    transform: translateX(0);
-    animation: slideOutToLeft 0.5s forwards;
-}
+        .img-carousel img.next-exit {
+            transform: translateX(0);
+            animation: slideOutToLeft 0.5s forwards;
+        }
 
-.img-carousel img.prev-enter {
-    transform: translateX(-100%);
-    animation: slideInFromLeft 0.5s forwards;
-}
+        .img-carousel img.prev-enter {
+            transform: translateX(-100%);
+            animation: slideInFromLeft 0.5s forwards;
+        }
 
-.img-carousel img.prev-exit {
-    transform: translateX(0);
-    animation: slideOutToRight 0.5s forwards;
-}
+        .img-carousel img.prev-exit {
+            transform: translateX(0);
+            animation: slideOutToRight 0.5s forwards;
+        }
 
-@keyframes slideInFromRight {
-    from {
-        transform: translateX(100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
+        @keyframes slideInFromRight {
+            from {
+                transform: translateX(100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
 
-@keyframes slideOutToLeft {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(-100%);
-    }
-}
+        @keyframes slideOutToLeft {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
 
-@keyframes slideInFromLeft {
-    from {
-        transform: translateX(-100%);
-    }
-    to {
-        transform: translateX(0);
-    }
-}
+        @keyframes slideInFromLeft {
+            from {
+                transform: translateX(-100%);
+            }
+            to {
+                transform: translateX(0);
+            }
+        }
 
-@keyframes slideOutToRight {
-    from {
-        transform: translateX(0);
-    }
-    to {
-        transform: translateX(100%);
-    }
-}
+        @keyframes slideOutToRight {
+            from {
+                transform: translateX(0);
+            }
+            to {
+                transform: translateX(100%);
+            }
+        }
 
 
         div.description {
