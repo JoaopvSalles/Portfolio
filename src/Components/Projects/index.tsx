@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 
 import { Container, CardLink, ButtonContainer, FilterButton, CardContainerWrapper, CardContainer, CardImage, CardTechs, CardDescription, CardSeeMore, CardSVG, CardTechsContainer } from "./style";
-import { NavLink } from "react-router-dom";
 
 
 interface Item {
