@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { DefaultTheme, ThemeProvider } from 'styled-components'
 
 import { Menu } from './Components/Menu'
@@ -26,7 +26,7 @@ export function App() {
   }
 
   return (
-    <BrowserRouter basename="/Portfolio">
+    <Router>
       <ThemeProvider theme={theme}>
 
         <Menu toggleTheme={toggleTheme} />
@@ -48,6 +48,6 @@ export function App() {
         <GlobalStyle />
 
       </ThemeProvider>
-    </BrowserRouter>
+    </Router>
   )
 }
