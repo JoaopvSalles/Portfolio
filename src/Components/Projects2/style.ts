@@ -137,12 +137,12 @@ export const Container = styled.div`
                 margin-right: 1rem;
                 padding: 0.8rem;
                 transition: 500ms;
-            }
 
-            &:hover {
-                color: var(--white);
-                background-color: var(--react);
-                transition: 500ms;
+                &:hover {
+                    color: var(--white);
+                    background-color: var(--react);
+                    transition: 500ms;
+                }
             }
 
             svg {

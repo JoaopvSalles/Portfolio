@@ -127,6 +127,7 @@ export const Container = styled.div`
                 margin-bottom: 1.5rem;
                 font-size: 1.5rem;
             }
+            
             a {
                 border: 1px groove var(--react);
                 border-radius: 10px;
@@ -136,12 +137,12 @@ export const Container = styled.div`
                 margin-right: 1rem;
                 padding: 0.8rem;
                 transition: 500ms;
-            }
 
-            &:hover {
-                color: var(--white);
-                background-color: var(--react);
-                transition: 500ms;
+                &:hover {
+                    color: var(--white);
+                    background-color: var(--react);
+                    transition: 500ms;
+                }
             }
 
             svg {
